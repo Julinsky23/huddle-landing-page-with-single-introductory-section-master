@@ -13,30 +13,28 @@
 
 body{
     background-image: url(./images/bg-desktop.svg);
+    
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-color:var(--violet);
     display: flex;
     align-items: center;
+    background-size: 85%;
 }
 
 header{
+    
     display: flex;
     justify-content: flex-start;
-    margin: 0 auto;
-}
-.header img{
-    width: 190px;
-    padding-bottom:50px;
-    display: flex;
-    justify-content: flex-start;
+    margin: 30px 200px;
+
 }
 
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 0 200px;
+    margin: 120px 200px;
 }
 
 .title{
@@ -55,30 +53,29 @@ header{
     padding-right: 380px;
 }
 
-img{
+.img_object{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
+    padding-right: 90px;
 }
 
 .register-button{
     background-color: white;
-    font-size: 20px;
+    font-size: 22px;
     color: var(--violet);
     border-radius: 32px;
     cursor: pointer;
     padding: 20px;
-    width: 220px;
-   
+    width: 220px; 
 }
 
-aside{
-
-}
 
 footer{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    margin-right: 200px;
+    
 
 }
